@@ -30,8 +30,12 @@
   },
 
   "includes": [
-    { "type": "page", "name": "Sensu Servers", "component": "SensuServersCtrl", "role": "Viewer", "addToNav": true, "defaultNav": true},
-    { "type": "page", "name": "Sensu Server Info", "component": "SensuServerInfoCtrl", "role": "Viewer", "addToNav": false, "defaultNav": false},
+    {
+      "type": "dashboard",
+      "name": "Sensu Summary",
+      "path": "dashboards/sensu-summary.json",
+      "addToNav": false
+    },
     {
       "type": "dashboard",
       "name": "Emma Summary",

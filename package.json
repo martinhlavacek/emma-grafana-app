@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "build": "NODE_ENV=production webpack --config webpack.config.prod.js --mode=production",
-    "dev": "NODE_ENV=development webpack --config webpack.config.dev.js --mode=development --hot",
+    "dev": "NODE_ENV=development webpack --config webpack.config.dev.js --mode=development",
     "watch": "NODE_ENV=development webpack --config webpack.config.dev.js --hot --watch",
-    "test": "jest --config jest.config.js"
+    "test": "jest --config jest.config.js",
+    "stop:emma:grafana:image": "(docker stop emma-grafana-app_grafana_1|| echo .) && (docker rm emma-grafana-app_grafana_1 || echo .)",
+    "start:emma:grafana:image": "docker-compose up"
   },
   "repository": {
     "type": "git",

@@ -1,10 +1,10 @@
 {
-  "name": "Emma Json Datasource",
-  "id": "Emma-json-datasource",
+  "name": "Emma Core",
+  "id": "emma-core-datasource",
   "type": "datasource",
 
   "partials": {
-    "config": "public/plugins/datasource/Emma-json-datasource/partials/config.html"
+    "config": "public/plugins/datasource/emma-core-datasource/partials/config.html"
   },
 
   "metrics": true,
