@@ -784,7 +784,8 @@ export class SensuCoreDatasource {
 
   getServerInfo() {
     return this.backendSrv.datasourceRequest({
-      url: this.url + "/info",
+      // url: this.url + "/api/v1/dashboards",
+      url: this.url + "/grafana",
       headers: {
         "Content-Type": "application/json",
         "Authorization": this.basicAuth

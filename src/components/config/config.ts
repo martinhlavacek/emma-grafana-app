@@ -1,6 +1,6 @@
 import angular from 'angular';
 
-export class DateraConfigCtrl {
+export class EmmaConfigCtrl {
   static templateUrl = "components/config/config.html";
   enabled: boolean;
   appEditCtrl: any;
@@ -20,7 +20,7 @@ export class DateraConfigCtrl {
       this.enabled = true;
       return {
         url: "plugins/emma-grafana-app/page/configure",
-        message: "Datera App enabled!"
+        message: "Emma App enabled!"
       };
     });
   }

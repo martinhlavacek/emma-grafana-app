@@ -9,24 +9,24 @@
   "info": {
     "description": "Application shows data collected and analyzed by EMMA.",
     "author": {
-      "name": "Grafana Labs",
-      "url": "https://github.com/grafana/grafana-sensu-app/"
+      "name": "DATERA s.r.o.",
+      "url": "https://emma.datera.cz/"
     },
-    "keywords": ["sensu"],
+    "keywords": ["EMMA", "NLP", "Analytics"],
     "logos": {
-      "small": "img/sensu-v2-logo-dark.svg",
-      "large": "img/sensu-v2-logo-dark.svg"
+      "small": "img/emma-logo.svg",
+      "large": "img/emma-logo.svg"
     },
     "links": [
-      {"name": "Grafana Labs", "url": "https://grafana.com/"},
-      {"name": "GitHub", "url": "https://github.com/grafana/grafana-sensu-app"},
-      {"name": "License", "url": "https://github.com/grafana/grafana-sensu-app/blob/master/LICENSE"}
+      {"name": "Website", "url": "https://emma.datera.cz/"},
+      {"name": "GitHub", "url": "https://github.com/dateracz/emma-grafana-app"},
+      {"name": "License", "url": "https://github.com/dateracz/emma-grafana-app/blob/master/LICENSE"}
     ],
     "screenshots": [
       {"name": "Panels", "path": "img/sensu-panels.png"}
     ],
-    "version": "1.0.3",
-    "updated": "2019-01-10"
+    "version": "1.0.0",
+    "updated": "2019-03-18"
   },
 
   "includes": [
@@ -34,13 +34,13 @@
     { "type": "page", "name": "Sensu Server Info", "component": "SensuServerInfoCtrl", "role": "Viewer", "addToNav": false, "defaultNav": false},
     {
       "type": "dashboard",
-      "name": "Sensu Summary",
-      "path": "dashboards/sensu-summary.json",
+      "name": "Emma Summary",
+      "path": "dashboards/emma-summary.json",
       "addToNav": true
     },
     {
       "type": "datasource",
-      "name": "Sensu Core"
+      "name": "Emma Core"
     }
   ],
 

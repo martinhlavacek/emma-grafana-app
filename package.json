@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dateracz/emma-grafana-app.git"
+    "url": "git+https://github.com/martinhlavacek/emma-grafana-app"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dateracz/emma-grafana-app/issues"
+    "url": "https://github.com/martinhlavacek/emma-grafana-app/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",

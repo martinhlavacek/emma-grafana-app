@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>UI/Logos/Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#165EFF" offset="0%"></stop>
+            <stop stop-color="#4C84FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="41.2220797%" id="linearGradient-2">
+            <stop stop-color="#09173E" offset="0%"></stop>
+            <stop stop-color="#173070" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#000000" stop-opacity="0.2" offset="0%"></stop>
+            <stop stop-color="#1B62FF" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M32.2940122,7.70598784 C37.2353293,13.1162471 37.2353293,26.8841317 32.2940122,32.2940122 C26.8837529,37.2353293 13.1162471,37.2353293 7.70598784,32.2940122 C2.76467072,26.8837529 2.76467072,13.1162471 7.70598784,7.70598784 C13.1162471,2.76467072 26.8837529,2.76467072 32.2940122,7.70598784" id="path-4"></path>
+    </defs>
+    <g id="UI/Logos/Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="EMMA">
+            <path d="M35.3675152,4.6324848 C41.5441616,11.3953089 41.5441616,28.6051646 35.3675152,35.3675152 C28.6046911,41.5441616 11.3953089,41.5441616 4.6324848,35.3675152 C-1.5441616,28.6046911 -1.5441616,11.3953089 4.6324848,4.6324848 C11.3953089,-1.5441616 28.6046911,-1.5441616 35.3675152,4.6324848" id="Shape" fill="url(#linearGradient-1)"></path>
+            <g id="Shape-Copy">
+                <use fill="url(#linearGradient-2)" xlink:href="#path-4"></use>
+                <use fill="url(#linearGradient-3)" xlink:href="#path-4"></use>
+            </g>
+            <path d="M20.0584029,11 L12,27.1026676 L12,28 L29,28 L29,27.1026676 L20.932375,11 L20.0584029,11 Z M20.4889323,17.8458657 L23.9158864,24.6046816 L17.1270668,24.6046816 L20.4889323,17.8458657 Z" id="Logo" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
