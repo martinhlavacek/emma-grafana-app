@@ -40,7 +40,7 @@ export class EmmaDatasource {
     }
 
     return this.doRequest({
-      url: this.url + '/grafana/query',
+      url: this.url + '/query',
       data: query,
       method: 'POST'
     });
@@ -48,7 +48,7 @@ export class EmmaDatasource {
 
   testDatasource() {
     return this.doRequest({
-      url: this.url + "/grafana",
+      url: this.url + "/",
       method: "GET",
     }).then((response: { status: number; }) => {
       console.log(response);
@@ -82,7 +82,7 @@ export class EmmaDatasource {
     };
 
     return this.doRequest({
-      url: this.url + '/grafana/annotations',
+      url: this.url + '/annotations',
       method: 'POST',
       data: annotationQuery
     }).then(result => {
@@ -96,7 +96,7 @@ export class EmmaDatasource {
     };
 
     return this.doRequest({
-      url: this.url + '/grafana/search',
+      url: this.url + '/search',
       data: interpolated,
       method: 'POST',
     }).then(this.mapToTextValue);

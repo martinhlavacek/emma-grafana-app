@@ -8,8 +8,8 @@
     "dev": "NODE_ENV=development webpack --config webpack.config.dev.js --mode=development",
     "watch": "NODE_ENV=development webpack --config webpack.config.dev.js --hot --watch",
     "test": "jest --config jest.config.js",
-    "stop:emma:grafana:image": "(docker stop emma-grafana-app_grafana_1|| echo .) && (docker rm emma-grafana-app_grafana_1 || echo .)",
-    "start:emma:grafana:image": "docker-compose up"
+    "start:emma:grafana:image": "docker-compose up",
+    "stop:emma:grafana:image": "(docker stop emma-grafana-app_grafana_1|| echo .) && (docker rm emma-grafana-app_grafana_1 || echo .)"    
   },
   "repository": {
     "type": "git",
